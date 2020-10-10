@@ -22,6 +22,21 @@ export default function Home() {
 				<Head>
 					<title>( ͡° ͜ʖ ͡°)</title>
 					<link rel="icon" href="/favicon.png" />
+
+					<meta name="title" content="( ͡° ͜ʖ ͡°)" />
+					<meta name="description" content="( ͡° ͜ʖ ͡°)" />
+
+					<meta property="og:type" content="website" />
+					<meta property="og:url" content="https://lenny.gq/" />
+					<meta property="og:title" content="( ͡° ͜ʖ ͡°)" />
+					<meta property="og:description" content="( ͡° ͜ʖ ͡°)" />
+					<meta property="og:image" content="https://lenny.gq/lenny.png" />
+
+					<meta property="twitter:card" content="summary_large_image" />
+					<meta property="twitter:url" content="https://lenny.gq/" />
+					<meta property="twitter:title" content="( ͡° ͜ʖ ͡°)" />
+					<meta property="twitter:description" content="( ͡° ͜ʖ ͡°)" />
+					<meta property="twitter:image" content="https://lenny.gq/lenny.png" />
 				</Head>
 				{checkmark ? (
 					<div className={styles.checkmarkWrapper}>
